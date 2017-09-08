@@ -1,2 +1,8 @@
 /target/
 /bin/
+/.idea/
+/src/main/main.iml
+.idea/
+src/main/main.iml
+/phrackCTF-Personal.iml
+phrackCTF-Personal.iml
