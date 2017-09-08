@@ -255,17 +255,17 @@
 			<version>1.7</version>
 		</dependency>
 	
-		<dependency>
-			<groupId>umeditor</groupId>
+	<dependency>
+			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
 			<version>1.2.2</version>
 		</dependency>
-		
+		<!-- 	
 		<dependency>
 			<groupId>umeditor</groupId>
 			<artifactId>ueditor-mini</artifactId>
 			<version>1.2.2</version>
-		</dependency>
+		</dependency> -->
 		
 		<dependency>
 			<groupId>commons-io</groupId>
