@@ -1,12 +1,9 @@
 # PhrackCTF-Platform-Personal
-
-This is the full version of phrackCTF-Platform including backend & frontend. This platform is for personal competition, user register as single person and take part in competition. Team version is here:[https://github.com/zjlywjh001/PhrackCTF-Platform-Team](https://github.com/zjlywjh001/PhrackCTF-Platform-Team)   
+   
 虽然我不能保证这是前端最炫的CTF平台，但我相信这会是后台功能最友好的CTF平台。
 
 Based on Spring and SpringMVC framework.
 
-### Demo
-See demo photos here [http://photo.163.com/zjlywjh002/#m=1&aid=303094421&p=1](http://photo.163.com/zjlywjh002/#m=1&aid=303094421&p=1)
 
 ## Techniques
 
@@ -35,10 +32,3 @@ Before using :
 3. Set database information in system.properties   
 4. Mail template in mail.properties
 5. Create a user and set column "role" to "admin" for setting a user as administrator.     
-
-## Docker
-The docker image for this project is available now.   
-See here: https://github.com/zjlywjh001/phrackCTF-Personal-Docker   
-
-## License
-Apache Public License v2.
